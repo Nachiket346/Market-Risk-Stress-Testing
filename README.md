@@ -1,6 +1,3 @@
-Overview:
-This project implements a market risk stress testing and Value-at-Risk (VaR) framework for a multi-equity portfolio, with a specific focus on AI-driven market dislocation scenarios. The analysis combines scenario-based stress testing, correlation and volatility shocks, and capital impact assessment, consistent with practices used on bank trading and risk desks.
-The framework is designed to demonstrate practical market risk skills aligned with Basel / FRTB-style risk management, including portfolio aggregation, stress calibration, and capital sensitivity analysis.
 
 Objective:
 Quantify tail risk (99% VaR) under baseline and stressed market conditions.
