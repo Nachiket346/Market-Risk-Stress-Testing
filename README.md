@@ -3,7 +3,7 @@ Objective:
 Quantify tail risk (99% VaR) under baseline and stressed market conditions.
 Design thematic stress scenarios capturing AI bubble dynamics.
 Measure incremental capital impact under each stress.
-Produce decision-ready risk visualizations suitable for risk committees.
+
 
 Process & Methodology
 1. Portfolio Construction
