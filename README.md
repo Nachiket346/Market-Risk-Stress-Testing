@@ -77,7 +77,7 @@ Stressed 99% VaR: 7.46%
 Δ Capital vs Baseline: +2.80%
 Impact: ~60% increase in tail risk (largest impact)
 Interpretation:
-Volatility amplification is the most severe risk channel. elevated uncertainty around AI earnings, positioning, and leverage leads to significantly fatter tails. This scenario demonstrates that volatility risk dominates capital requirements, consistent with regulatory stress frameworks and crisis-period observations.
+Volatility amplification is the most severe risk channel. elevated uncertainty around AI earnings, positioning, and leverage leads to significantly fatter tails. This scenario demonstrates that volatility risk dominates capital requirements, consistent with  crisis-period observations.
 
 Scenario 4: Correlation Spike (ρ = 0.85)
 Stressed 99% VaR: 5.23%
