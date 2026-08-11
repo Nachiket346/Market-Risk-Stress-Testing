@@ -43,10 +43,10 @@ Results
 | Scenario                     | 99% VaR | Δ Capital vs Baseline |
 | ---------------------------- | ------- | --------------------- |
 | Baseline                     | 0.0466  | 0.0000                |
-| Systemic Crash (AI Bubble)   | 0.0559  | +0.0093               |
-| AI Leaders Collapse          | 0.0559  | +0.0093               |
+| Systemic Crash (AI Bubble)   | 0.0489  | +0.0023               |
+| AI Leaders Collapse          | 0.0516  | +0.0050               |
 | Volatility Scaling (+60%)    | 0.0746  | +0.0280               |
-| Correlation Spike (ρ = 0.85) | 0.0523  | +0.0057               |
+| Correlation Spike (ρ = 0.85) | 0.0558  | +0.0092               |
 
 
 Intepretation:
@@ -59,15 +59,15 @@ Reflects historical market dynamics without forward-looking stress.
 Serves as the capital benchmark for incremental stress impact.
 
 Scenario 1: Systemic Crash (AI Bubble Burst)
-Stressed 99% VaR: 5.59%
-Δ Capital vs Baseline: +0.93%
+Stressed 99% VaR: 4.89%
+Δ Capital vs Baseline: +0.23%
 Impact: ~20% increase in tail risk
 Interpretation:
 A broad market repricing triggered by an AI bubble burst leads to a sharp increase in portfolio tail losses. the uniform stress across all equities captures systemic risk, indicating that diversification benefits materially weaken during AI-driven market sell-offs.
 
 Scenario 2: AI Leaders Collapse (Tech Concentration Risk)
-Stressed 99% VaR: 5.59%
-Δ Capital vs Baseline: +0.93%
+Stressed 99% VaR: 5.16%
+Δ Capital vs Baseline: +0.5%
 Impact: Comparable to systemic crash
 Interpretation:
 Despite being sector-specific, concentrated losses in AI-heavy names generate VaR levels similar to a full market crash. this highlights concentration and factor exposure risk, where losses in large-cap AI leaders propagate to the overall portfolio through correlation and weighting effects.
@@ -80,8 +80,8 @@ Interpretation:
 Volatility amplification is the most severe risk channel. elevated uncertainty around AI earnings, positioning, and leverage leads to significantly fatter tails. This scenario demonstrates that volatility risk dominates capital requirements, consistent with  crisis-period observations.
 
 Scenario 4: Correlation Spike (ρ = 0.85)
-Stressed 99% VaR: 5.23%
-Δ Capital vs Baseline: +0.57%
+Stressed 99% VaR: 5.58%
+Δ Capital vs Baseline: +0.92%
 Impact: ~12% increase in tail risk
 Interpretation:
 Rising cross-asset correlations reduce diversification benefits, increasing portfolio risk even without large price shocks. this scenario captures contagion and market crowding effects, commonly observed during systemic de-risking events.
