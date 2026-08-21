@@ -6,10 +6,7 @@ Measure incremental capital impact under each stress.
 
 
 Process & Methodology
-1. Portfolio Construction
-Five-equity portfolio (tech-heavy exposure).
-Daily log returns computed from historical prices.
-Portfolio returns aggregated using fixed portfolio weights.
+1.Portfolio Construction: Five-equity, equally weighted portfolio (20% each — AAPL, AMZN, TSLA, GOOGL, MSFT) with tech-heavy exposure. Daily returns computed from historical prices. Portfolio returns aggregated using equal weights.
 
 2. Baseline Risk Measurement
 Historical 99% one-day VaR.
